@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    background-color: rgb(208, 255, 239);
+}
+
+.main-game {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.genius {
+    display: grid;
+    grid-template-areas: 'green-red' 
+        'yellow-blue';  /*dá o nome para cada uma dos containers*/
+    grid-gap: 10px; /*setup do grid-gap, o espaço entre cada área do grid*/
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 100%;
+    width: 700px;
+    height: 700px;
+}
